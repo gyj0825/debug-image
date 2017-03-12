@@ -9,4 +9,4 @@ RUN useradd -u 1000  debug
 RUN yum -y install iputils net-tools wget iproute  telnet traceroute bind-utils git tcpdump lsof tar 
 
 USER 1000
-CMD ['/usr/bin/sleep 3600']
+CMD ["/usr/bin/sleep","3600"]
